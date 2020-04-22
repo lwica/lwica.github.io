@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# LWICA
 
-You can use the [editor on GitHub](https://github.com/lwica/lwica.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+An up-to-date DTN implementation.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Goal of the project
 
-### Markdown
+There's few DTN implementations but most of the are outdated.
+This implementation aims to follow the last updates of the standards/drafts.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Standardisation sub-project
 
-```markdown
-Syntax highlighted code block
+Some DTN implementations aren't compatible with other ones because of usage of not well-defined data syntaxes.
+This may be caused by foggy or missing definitions.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lwica/lwica.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+In our implementation, every occurence of not well-defined data interchange will be first documented in our wikis,
+then a notification and the proposal will be submitted to the standard/draft maintainers.
